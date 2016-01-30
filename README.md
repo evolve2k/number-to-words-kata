@@ -6,9 +6,9 @@ The Kata
 
 For a given integer return the number in words.
 
-Initial focus is on implementing support for any positive integer up to 9999.
+The number 1234 becomes "one thousand two hundred and thirty four".
 
-So 1234 becomes "one thousand two hundred and thirty four".
+Initial focus is on implementing support for any positive integer up to 9999.
 
 My implementation
 -----------------
