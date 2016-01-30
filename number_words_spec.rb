@@ -1,4 +1,7 @@
-
+class Fixnum
+  def to_word
+  end
+end
 
 describe "Integer to Word Converter" do
   it "returns zero if the number is 0" do
