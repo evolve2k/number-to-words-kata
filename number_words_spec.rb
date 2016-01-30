@@ -7,8 +7,6 @@ class Fixnum
     WORD_NUMBERS.each do |word, integer|
       return word if self == integer
     end
-    return "zero" if self == 0
-    return "one"  if self == 1
     "two"
   end
 end
