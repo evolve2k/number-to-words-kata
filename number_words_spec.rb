@@ -9,6 +9,6 @@ describe "Integer to Word Converter" do
     expect(0.to_word).to eq("zero")
   end
   it "returns one if the number is 1" do
-    expect(0.to_word).to eq("one")
+    expect(1.to_word).to eq("one")
   end
 end
