@@ -15,7 +15,6 @@ class Fixnum
     WORD_NUMBERS.each do |word, integer|
       return word if self == integer
     end
-    "two"
   end
 end
 
