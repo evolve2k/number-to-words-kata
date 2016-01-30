@@ -1,5 +1,6 @@
 class Fixnum
   def to_word
+    "zero"
   end
 end
 
