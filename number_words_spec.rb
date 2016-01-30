@@ -1,7 +1,7 @@
 class Fixnum
   def to_word
     return "zero" if self == 0
-    "one"
+    return "one"  if self == 1
   end
 end
 
