@@ -1,5 +1,12 @@
 class Fixnum
+  WORD_NUMBERS = {
+    "zero" => 0,
+    "one" => 1
+  }
   def to_word
+    WORD_NUMBERS.each do |word, integer|
+      return word if self == integer
+    end
     return "zero" if self == 0
     return "one"  if self == 1
     "two"
